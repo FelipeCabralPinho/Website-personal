@@ -20,7 +20,7 @@ Não há JavaScript, frameworks nem dependências para instalar: é um site est�
 
 Como foi construído:
 Cada análise é um card (<div class="card">) com uma imagem, um título e uma descrição curta.
-A imagem fica dentro de uma âncora (<a href="...">), então clicar nela abre o artigo no Medium.
+A imagem fica dentro de uma âncora (<a href' >), então clicar nela abre o artigo no Medium.
 O layout em duas colunas é feito com float: os cards com a classe left vão para a esquerda e os com right para a direita, e o clear faz cada card descer na sua coluna.
 O display: flow-root faz cada card conter a imagem flutuante, permitindo o espaçamento correto entre eles.
 As imagens usam aspect-ratio e object-fit: cover para ficarem todas com o mesmo tamanho e proporção, sem distorcer.
